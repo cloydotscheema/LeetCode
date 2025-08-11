@@ -9,7 +9,6 @@ public:
             ++len;
             --i;
         }
-        
         return len;
     }
 };
