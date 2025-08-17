@@ -24,7 +24,7 @@ public:
             if(n1->val != n2->val) return false;
 
             que.push({n1->left, n2->left});
-            que.push({n2->right, n1->right});
+            que.push({n1->right, n2->right});
         }
         return true;
     }
